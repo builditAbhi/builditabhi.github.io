@@ -1,0 +1,42 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #000000, #302EBB);
+  }
+  
+  header {
+    background-image: linear-gradient(to right, #000000, #302EBB);
+    text-align: center;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #C067FD;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #C067FD;
+    color: #333;
+  }
+  
+  main {
+    color: #C067FD;
+    padding: 20px;
+  }
+  
+  footer {
+    background-image: linear-gradient(to right, #000000, #302EBB);
+    color: #C067FD;
+    padding: 10px;
+    text-align: center;
+  }
