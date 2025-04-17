@@ -3,74 +3,444 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Chaudhary - Full Stack Developer</title>
+    <title>Abhishek Chaudhary | Mobile Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="profile_picture.jpg" alt="Abhishek Chaudhary">
-        <h1>Abhishek Chaudhary</h1>
-        <h2>Full Stack Developer</h2>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>AC</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a passionate software engineer with over 5+ years of experience in crafting innovative and efficient applications. My expertise lies in Android and iOS development, leveraging Kotlin and Swift to build robust and user-friendly apps.</p>
-            <p>I am proficient in:</p>
-            <ul>
-                <li>Kotlin</li>
-                <li>Swift</li>
-                <li>Android SDK</li>
-                <li>iOS SDK</li>
-                <li>Jetpack Compose</li>
-                <li>SwiftUI</li>
-            </ul>
-        </section>
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Abhishek Chaudhary</h1>
+                <h2>Senior Mobile Application Developer</h2>
+                <p>Building scalable, performant mobile solutions with Kotlin, Swift, and C#</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="#experience" class="btn secondary-btn">View Experience</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!--         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="project1.html"><strong>Project 1: Fitness Tracker</strong></a>
-                    <p>A mobile app that tracks user's fitness goals, activity, and progress.</p>
-                </li>
-                <li>
-                    <a href="project2.html"><strong>Project 2: E-commerce App</strong></a>
-                    <p>A cross-platform e-commerce app with features like product browsing, cart management, and secure checkout.</p>
-                </li>
-            </ul>
-        </section> -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Experienced Mobile Application Developer with 6 years of expertise in creating robust and user-friendly applications. I specialize in Kotlin, Swift, and C# development with a focus on implementing CI/CD pipelines and RESTful API integration.</p>
+                    <p>My passion lies in architecting scalable solutions that solve real-world problems. I enjoy working in collaborative environments where I can contribute my strong problem-solving skills and technical knowledge.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>6+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>14+</h3>
+                            <p>Languages Supported</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50%</h3>
+                            <p>Time-to-Market Reduction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Agile methodologies (Scrum, Kanban)</li>
-                <li>Version control (Git)</li>
-                <li>CI/CD pipelines (Jenkins, CircleCI)</li>
-                <li>RESTful APIs</li>
-                <li>Cloud platforms (Firebase, AWS)</li>
-            </ul>
-        </section>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Engineer</h3>
+                        <h4>Halma PLC</h4>
+                        <p class="timeline-date">June 2022 - Present</p>
+                        <ul>
+                            <li>Implemented CI/CD pipelines, achieving a 50% reduction in time to market</li>
+                            <li>Enhanced data visualization using OpenGL (Android) and Scene Kit (iOS)</li>
+                            <li>Streamlined media management with CameraX and MediaStore implementation</li>
+                            <li>Integrated 14+ languages and GDPR compliance measures</li>
+                            <li>Developed RESTful APIs using ASP.NET in C#</li>
+                        </ul>
+                    </div>
+                </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                <ul>
-                <li>Email: contactchaudharyabhishek@gmail.com</li>
-                <li>Phone : +91-8169464062</li>
-                </ul>
-            </p>
-            <p>Connect with me on:</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/builditabhi">LinkedIn</a></li>
-                <li><a href="https://github.com/builditabhi">GitHub</a></li>
-            </ul>
-        </section>
-    </main>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Halma PLC</h4>
+                        <p class="timeline-date">September 2020 - June 2022</p>
+                        <ul>
+                            <li>Developed mobile and desktop applications using Kotlin multiplatform and WPF</li>
+                            <li>Implemented data export functionality reducing false defect reports by 60%</li>
+                            <li>Streamlined development with automated build, test, and release cycles</li>
+                            <li>Leveraged Azure DevOps for CI/CD pipelines and efficient testing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Trainee Software Engineer</h3>
+                        <h4>Halma PLC</h4>
+                        <p class="timeline-date">September 2019 - September 2020</p>
+                        <ul>
+                            <li>Built desktop applications for sensor monitoring using WPF and C#</li>
+                            <li>Added unit and integration tests using Google C++ testing framework</li>
+                            <li>Enhanced sensor data analysis with interactive charts and controls</li>
+                            <li>Designed intuitive UIs aligned with Figma designs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">Kotlin</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Swift</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C#</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">Kotlin Multiplatform</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Jetpack Components</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Compose</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">SQLite & Realm</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>DevOps & API</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">CI/CD</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Azure DevOps</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">RESTful APIs</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sensor Monitoring App</h3>
+                        <p>Mobile application for real-time sensor monitoring with data visualization and export capabilities.</p>
+                        <div class="project-tech">
+                            <span>Kotlin</span>
+                            <span>OpenGL</span>
+                            <span>Realm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Desktop Configuration Tool</h3>
+                        <p>WPF-based desktop application for sensor configuration and management.</p>
+                        <div class="project-tech">
+                            <span>C#</span>
+                            <span>WPF</span>
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cross-Platform Data Collector</h3>
+                        <p>Kotlin Multiplatform application for collecting and analyzing data across iOS and Android.</p>
+                        <div class="project-tech">
+                            <span>Kotlin MP</span>
+                            <span>Swift</span>
+                            <span>Coroutines</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Awards & Recognition</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Best Learner</h3>
+                    <p class="achievement-year">2020-21</p>
+                    <p>For quick mastery of new skills and demonstrated ability to learn complex concepts.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Xtra Mile</h3>
+                    <p class="achievement-year">2021-22</p>
+                    <p>For going above and beyond to develop innovative software solutions.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>SPOT Award</h3>
+                    <p class="achievement-year">2022-23</p>
+                    <p>For fostering a collaborative and knowledge-sharing environment within the team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-cards">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Postgraduate Diploma in Software Engineering</h3>
+                        <h4>Centre for Development of Advanced Computing (C-DAC)</h4>
+                        <p class="education-location">Bengaluru</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Bachelor of Engineering</h3>
+                        <h4>Electronics & Telecommunication Engineering</h4>
+                        <p class="education-location">Bhartiya Vidyapeeth College of Engineering, University of Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contactchaudharyabhishek@gmail.com">contactchaudharyabhishek@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+918169464062">+91-8169464062</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/builditabhi/" target="_blank">@builditabhi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Abhishek Chaudhary. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>AC</h2>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/builditabhi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/builditabhi" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Abhishek Chaudhary. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+                document.querySelector('.menu-btn').classList.remove('active');
+            });
+        });
+
+        // Form submission (placeholder)
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! This is a demo form. In a real implementation, this would send your message.');
+        });
+    </script>
 </body>
 </html>
